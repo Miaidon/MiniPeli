@@ -9,4 +9,12 @@ public class SceneChanger : MonoBehaviour
        SceneManager.LoadScene("JuusanHuone");
    }
 
+   public void NikonHuone(){
+       SceneManager.LoadScene("NikonHuone");
+   }
+
+   public void StartScene(){
+       SceneManager.LoadScene("StartScene");
+   }
+
 }
