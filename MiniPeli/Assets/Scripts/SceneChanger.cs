@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class SceneChanger : MonoBehaviour
 {
+   public GameObject infoIkkuna;
+
+
    public void JuusanHuone(){
        SceneManager.LoadScene("JuusanHuone");
    }
@@ -16,5 +19,13 @@ public class SceneChanger : MonoBehaviour
    public void StartScene(){
        SceneManager.LoadScene("StartScene");
    }
+    
+    public void avaaInfo() { 
+        infoIkkuna.SetActive(true);
+    }
+
+    public void suljeInfo() {
+        infoIkkuna.SetActive(false);
+    }
 
 }
