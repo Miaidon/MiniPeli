@@ -514,6 +514,7 @@ GameObject:
   - component: {fileID: 294087151}
   - component: {fileID: 294087150}
   - component: {fileID: 294087152}
+  - component: {fileID: 294087153}
   m_Layer: 0
   m_Name: fatima_marsu
   m_TagString: Untagged
@@ -601,6 +602,18 @@ CircleCollider2D:
   m_Offset: {x: 0.31474727, y: -0.041524958}
   serializedVersion: 2
   m_Radius: 3.488275
+--- !u!114 &294087153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 294087149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bbb026c7b71a2b449bfa149281808f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
