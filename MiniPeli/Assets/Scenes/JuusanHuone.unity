@@ -1950,8 +1950,8 @@ GameObject:
   m_Component:
   - component: {fileID: 439550451}
   - component: {fileID: 439550450}
-  - component: {fileID: 439550453}
   - component: {fileID: 439550452}
+  - component: {fileID: 439550453}
   m_Layer: 0
   m_Name: Jalkapallo
   m_TagString: Untagged
@@ -2048,10 +2048,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 439550449}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 741ed92e023413c4aaf1f0d25f1a0a15, type: 3}
+  m_Script: {fileID: 11500000, guid: f630496e3d4b712449a4385ed2473ec0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  "kyss\xE4Ikkuna_Saksa": {fileID: 0}
+  "kyss\xE4Ikkuna_Jalkapallo": {fileID: 1234718757}
 --- !u!1 &483540838
 GameObject:
   m_ObjectHideFlags: 0
@@ -2062,8 +2062,8 @@ GameObject:
   m_Component:
   - component: {fileID: 483540840}
   - component: {fileID: 483540839}
-  - component: {fileID: 483540842}
   - component: {fileID: 483540841}
+  - component: {fileID: 483540842}
   m_Layer: 0
   m_Name: Tabletti
   m_TagString: Untagged
@@ -2170,10 +2170,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 483540838}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 741ed92e023413c4aaf1f0d25f1a0a15, type: 3}
+  m_Script: {fileID: 11500000, guid: 40048050e9dbd804b998480f61c53a3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  "kyss\xE4Ikkuna_Saksa": {fileID: 0}
+  "kyss\xE4Ikkuna_Tabletti": {fileID: 307888300}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2866,7 +2866,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Kysymys
+  m_text: Karttapallo
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3330,7 +3330,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Kysymys
+  m_text: Tabletti
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4090,10 +4090,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 921197108}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 741ed92e023413c4aaf1f0d25f1a0a15, type: 3}
+  m_Script: {fileID: 11500000, guid: d7fad6f28a9562046b8b408f82445d26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  "kyss\xE4Ikkuna_Saksa": {fileID: 0}
+  "kyss\xE4Ikkuna_Energiajuoma": {fileID: 582078437}
 --- !u!61 &921197112
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5516,7 +5516,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Kysymys
+  m_text: Jalkapallo
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5737,7 +5737,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Kysymys
+  m_text: Energiajuoma
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5929,10 +5929,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1844886270}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 741ed92e023413c4aaf1f0d25f1a0a15, type: 3}
+  m_Script: {fileID: 11500000, guid: 10717f9f3663e6448bb7a049c052d7dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  "kyss\xE4Ikkuna_Saksa": {fileID: 0}
+  "kyss\xE4Ikkuna_Karttapallo": {fileID: 744818766}
 --- !u!58 &1844886274
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6954,7 +6954,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Kysymys
+  m_text: Saksa
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
