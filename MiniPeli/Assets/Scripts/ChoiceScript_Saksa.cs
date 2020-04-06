@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 public class ChoiceScript_Saksa : MonoBehaviour {
     
-    private GameObject TextBox;
+    public GameObject TextBox;
     public GameObject choice01;
     public GameObject choice02;
     public GameObject choice03;

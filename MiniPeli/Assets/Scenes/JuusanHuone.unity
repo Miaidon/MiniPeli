@@ -2661,12 +2661,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 713692990}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0b37a20aadfd4244a232ca896218d22, type: 3}
+  m_Script: {fileID: 11500000, guid: 343cbce051e5228438c77a6f2d350d85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TextBox: {fileID: 1821078624}
   choice01: {fileID: 953855159}
-  choice02: {fileID: 107918025}
-  choice03: {fileID: 117729708}
+  choice02: {fileID: 117729708}
+  choice03: {fileID: 107918025}
   ChoiceMade: 0
 --- !u!4 &713692992
 Transform:
@@ -5314,6 +5315,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0b37a20aadfd4244a232ca896218d22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TextBox: {fileID: 2101527086}
   choice01: {fileID: 2061434987}
   choice02: {fileID: 2085777727}
   choice03: {fileID: 2084454559}
@@ -6005,12 +6007,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1867650236}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0b37a20aadfd4244a232ca896218d22, type: 3}
+  m_Script: {fileID: 11500000, guid: f1b9590c7ea6b7345b79ee40fa029c11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  choice01: {fileID: 878605751}
+  TextBox: {fileID: 1655247018}
+  choice01: {fileID: 2146409213}
   choice02: {fileID: 343165606}
-  choice03: {fileID: 2146409213}
+  choice03: {fileID: 878605751}
   ChoiceMade: 0
 --- !u!4 &1867650238
 Transform:
@@ -6052,12 +6055,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1898738644}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0b37a20aadfd4244a232ca896218d22, type: 3}
+  m_Script: {fileID: 11500000, guid: 151d2227b02324b479728f4d06e693fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  choice01: {fileID: 2046576854}
-  choice02: {fileID: 323122849}
-  choice03: {fileID: 163249721}
+  TextBox: {fileID: 813797432}
+  choice01: {fileID: 323122849}
+  choice02: {fileID: 163249721}
+  choice03: {fileID: 2046576854}
   ChoiceMade: 0
 --- !u!4 &1898738646
 Transform:
@@ -7080,12 +7084,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 2104858873}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0b37a20aadfd4244a232ca896218d22, type: 3}
+  m_Script: {fileID: 11500000, guid: 94ca71e02f62c5141b4c8f07cd12b498, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  choice01: {fileID: 722612223}
-  choice02: {fileID: 1237727740}
-  choice03: {fileID: 862362307}
+  TextBox: {fileID: 737008780}
+  choice01: {fileID: 862362307}
+  choice02: {fileID: 722612223}
+  choice03: {fileID: 1237727740}
   ChoiceMade: 0
 --- !u!4 &2104858875
 Transform:
