@@ -62,6 +62,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\ChangeSceneJuusanHuone.cs" />
     <Compile Include="Assets\Scripts\ChoiceScript_Energiajuoma.cs" />
     <Compile Include="Assets\Scripts\ChoiceScript_Jalkapallo.cs" />
     <Compile Include="Assets\Scripts\ChoiceScript_Karttapallo.cs" />

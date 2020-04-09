@@ -7,19 +7,19 @@ public class SceneChanger : MonoBehaviour
 {
    public GameObject infoIkkuna;
 
+    public void JuusanTyhjäHuone()
+    {
+        SceneManager.LoadScene("JuusanTyhjäHuone");
+    }
 
-   public void JuusanHuone(){
-       SceneManager.LoadScene("JuusanHuone");
-   }
-
-   public void NikonHuone(){
+    public void NikonHuone(){
        SceneManager.LoadScene("NikonHuone");
    }
 
    public void StartScene(){
        SceneManager.LoadScene("StartScene");
    }
-    
+
     public void avaaInfo() { 
         infoIkkuna.SetActive(true);
     }

@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/NikonHuone.unity
     guid: fe13ea725288f724ab97c3250b71d726
+  - enabled: 1
+    path: "Assets/Scenes/JuusanTyhj\xE4Huone.unity"
+    guid: 3f7bb8f702514cc44920e630e585ccaf
   m_configObjects: {}
