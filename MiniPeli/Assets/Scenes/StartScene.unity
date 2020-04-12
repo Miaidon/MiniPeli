@@ -1075,7 +1075,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Peliohjeet
+  m_text: "Peliohjeet\n\n1. Paina mieleesi milt\xE4 huone n\xE4ytt\xE4\xE4, se muuttuu
+    hetken kuluttua\n2. Etsi huoneesta esineet, jotka ilmestyv\xE4t sinne\n3. Muista,
+    ett\xE4 peliaikasi hupenee, joten ole nopea!\n4. Vastaa esineist\xE4 ponnahtaviin
+    kysymyksiin - mutta ole tarkka, v\xE4\xE4r\xE4st\xE4 vastauksesta peliaikaasi
+    v\xE4hennet\xE4\xE4n!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1103,8 +1107,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 14
+  m_fontSizeBase: 14
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
