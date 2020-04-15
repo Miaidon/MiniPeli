@@ -7,23 +7,38 @@ using UnityEngine.UI;
 public class CountdownTimer : MonoBehaviour
 {
 
-   float currentTime = 0f;
-   float startingTime = 120f;
 
-   [SerializeField] Text countdownText;
+   public float currentTime = 20;
+   
+
+   public Text countdownText;
+   private bool timerIsActive = true;
+   public static int score = 0;
+   public static int seconds;
 
  void Start() {
        
-       currentTime = startingTime;
+       countdownText=GetComponent<Text>();
 }
 
 void Update()
 {
-    currentTime -= 1 * Time.deltaTime;
-    countdownText.text = currentTime.ToString("0");
-
-    if( currentTime <= 0){
-        currentTime = 0;
+    if(timerIsActive){
+        currentTime -= Time.deltaTime; //vähentää aikaa joka sekuntti
+        seconds = (int)(currentTime);
+        countdownText.text = "Aika: " + seconds; //aika joka näkyy näytöllä
+       
+        if(currentTime<=0){  //Pysäyttää kellon kun aika on 0
+            currentTime=0;
+            
+            timerIsActive=false;
+            updateScore();
+        }
     }
+}
+
+ public void updateScore(){  //Laskee ajan ja pisteet yhteen 
+    currentTime+=score;
+    print(currentTime + " Pistettä");
 }
 }
