@@ -18,15 +18,16 @@ public class CountdownTimer : MonoBehaviour
 
  void Start() {
        
-       countdownText=GetComponent<Text>();
+       countdownText= GetComponentInChildren<Text>();
 }
 
 void Update()
 {
+
     if(timerIsActive){
         currentTime -= Time.deltaTime; //vähentää aikaa joka sekuntti
         seconds = (int)(currentTime);
-        countdownText.text = "Aika: " + seconds; //aika joka näkyy näytöllä
+        countdownText.text = "Aika: " + CountdownTimer.seconds; //aika joka näkyy näytöllä
        
         if(currentTime<=0){  //Pysäyttää kellon kun aika on 0
             currentTime=0;
