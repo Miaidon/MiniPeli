@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 public class ChoiceScript_Saksa : MonoBehaviour {
     
-  
+ 
     public GameObject TextBox;
     public GameObject choice01;
     public GameObject choice02;
@@ -21,6 +21,8 @@ public class ChoiceScript_Saksa : MonoBehaviour {
     public void ChoiceOption2(){
         TextBox.GetComponent<TMPro.TextMeshProUGUI>().text = "Wrong";
         ChoiceMade = 2;
+        CountdownTimer.seconds -=10f * Time.deltaTime;
+        
          
     }
 

@@ -917,7 +917,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentTime: 10
-  countdownText: {fileID: 0}
+  countdownText: {fileID: 253380429}
 --- !u!114 &120502768
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1273,7 +1273,6 @@ GameObject:
   - component: {fileID: 253380428}
   - component: {fileID: 253380430}
   - component: {fileID: 253380429}
-  - component: {fileID: 253380431}
   m_Layer: 5
   m_Name: countdownText
   m_TagString: Untagged
@@ -1340,20 +1339,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 253380427}
   m_CullTransparentMesh: 0
---- !u!114 &253380431
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 253380427}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ebc906ce5862324cbe530dd524b11dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentTime: 0
-  countdownText: {fileID: 253380429}
 --- !u!1 &294087149
 GameObject:
   m_ObjectHideFlags: 0
