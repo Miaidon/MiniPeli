@@ -12,13 +12,13 @@ public class ChoiceScript_Saksa : MonoBehaviour {
     public GameObject choice03;
     public int ChoiceMade;
 
-    public void ChoiceOption1(){
+    public void ChoiceOption1(){ //Vaihtoehto a)
         TextBox.GetComponent<TMPro.TextMeshProUGUI>().text = "Correct";
         ChoiceMade = 1;
         
     }
 
-    public void ChoiceOption2(){
+    public void ChoiceOption2(){ //Vaihtoehto b)
         TextBox.GetComponent<TMPro.TextMeshProUGUI>().text = "Wrong";
         ChoiceMade = 2;
         CountdownTimer.seconds -=10f * Time.deltaTime;
@@ -26,13 +26,13 @@ public class ChoiceScript_Saksa : MonoBehaviour {
          
     }
 
-    public void ChoiceOption3(){
+    public void ChoiceOption3(){ //Vaihtoehto c)
         TextBox.GetComponent<TMPro.TextMeshProUGUI>().text = "Almost";
         ChoiceMade = 3;
     }
 
     void Update() {
-        if(ChoiceMade >=1) {
+        if(ChoiceMade >=1) { //asettaa valitun "choicen" aktiiviseksi
             choice01.SetActive(false);
             choice02.SetActive(false);
             choice03.SetActive(false);
