@@ -9,7 +9,7 @@ public class CountdownTimer : MonoBehaviour
 {
 
 
-   public float currentTime = 20;
+   public float currentTime = 300;
    
 
    public Text countdownText;
