@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-
+using System;
 
 public class CountdownTimer : MonoBehaviour
 {
@@ -13,6 +13,7 @@ public class CountdownTimer : MonoBehaviour
    
 
    public Text countdownText;
+    public Text pisteet;
    private bool timerIsActive = true;
    public static float score = 0;
    public static float seconds;
@@ -20,6 +21,7 @@ public class CountdownTimer : MonoBehaviour
  void Start() {
        
        countdownText= GetComponentInChildren<Text>();
+       pisteet = GetComponentInChildren<Text>();
 }
 
 void Update()
@@ -35,19 +37,26 @@ void Update()
             
             timerIsActive=false;
             updateScore();
-            SceneManager.LoadScene("GameOver");       
-    }
+            SceneManager.LoadScene("GameOver");
+            }
      if (GameObject.FindWithTag("Kysymys") == null) {       //Lopettaa pelin kun kaikki assetit on tuhottu
             timerIsActive=false;
             updateScore();
-            SceneManager.LoadScene("GameOver"); 
+            StartCoroutine(waitSecond()); 
         }
-}
+        }
 
+     IEnumerator waitSecond()
+     {
+            yield return new WaitForSeconds(1);
+            SceneManager.LoadScene("GameOver");
+        }
 
- void updateScore(){  //Laskee ajan ja pisteet yhteen 
+        void updateScore(){  //Laskee ajan ja pisteet yhteen 
     seconds+=score;
-    print(seconds + " Pistettä");
-}
-}
+        }
+    
+    }
+
+
 }
