@@ -35,13 +35,18 @@ void Update()
             
             timerIsActive=false;
             updateScore();
-            SceneManager.LoadScene("GameOver");
-        }
+            SceneManager.LoadScene("GameOver");       
     }
+     if (GameObject.FindWithTag("Kysymys") == null) {
+            timerIsActive=false;
+            updateScore();
+            SceneManager.LoadScene("GameOver"); 
+        }
 }
 
- public void updateScore(){  //Laskee ajan ja pisteet yhteen 
+ void updateScore(){  //Laskee ajan ja pisteet yhteen 
     seconds+=score;
     print(seconds + " Pistettä");
+}
 }
 }
