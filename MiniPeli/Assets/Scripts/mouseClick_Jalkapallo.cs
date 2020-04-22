@@ -15,4 +15,9 @@ public class mouseClick_Jalkapallo : MonoBehaviour
         kyssäIkkuna_Jalkapallo.SetActive(true); //avaa kyseisen esineen kysymysikkunan 
         Destroy(gameObject, 2); //tuhoaa esineen kahden sekunnin viiveellä
     }
+
+    public void sulje() //kun painaa "Sulje"-nappia, ikkuna sulkeutuu
+    {
+        kyssäIkkuna_Jalkapallo.SetActive(false);
+    }
 }

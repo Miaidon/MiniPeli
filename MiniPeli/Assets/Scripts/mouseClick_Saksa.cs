@@ -15,6 +15,11 @@ public class mouseClick_Saksa : MonoBehaviour
         kyssäIkkuna_Saksa.SetActive(true); //avaa kyseisen esineen kysymysikkunan 
         Destroy(gameObject, 2); //tuhoaa esineen kahden sekunnin viiveellä
     }
+
+    public void sulje() //kun painaa "Sulje"-nappia, ikkuna sulkeutuu
+    {
+        kyssäIkkuna_Saksa.SetActive(false);
+    }
 }
 
 
