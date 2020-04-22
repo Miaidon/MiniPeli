@@ -37,12 +37,13 @@ void Update()
             updateScore();
             SceneManager.LoadScene("GameOver");       
     }
-     if (GameObject.FindWithTag("Kysymys") == null) {
+     if (GameObject.FindWithTag("Kysymys") == null) {       //Lopettaa pelin kun kaikki assetit on tuhottu
             timerIsActive=false;
             updateScore();
             SceneManager.LoadScene("GameOver"); 
         }
 }
+
 
  void updateScore(){  //Laskee ajan ja pisteet yhteen 
     seconds+=score;
